@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#block{
+    width: 300px;
+    background-color: orange;
+    height: 300px;
+  
+   text-align: center;
+   overflow: hidden;
+   padding: 20px;
+    border-radius: 22px;
+    
+}
+#block span{
+    color: white;
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    
+}
+
+#block h3{
+    font-size: 30px;
+    margin-top: 15px;
+
+}
+#block p{
+    font-size: 20px;
+    padding: 20px;
+}
